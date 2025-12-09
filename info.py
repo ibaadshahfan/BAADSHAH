@@ -84,10 +84,10 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Anylinkstutorials/15'
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gyanilinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '9f350aff55c9b3116debcaa343e9aef4f5aaa735')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Anylinkstutorials/15')  # Tutorial video link for opening shortlink website
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', 'True'))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Shortxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '07fbf3b5f1d39b3856aaceb3172a469534ad98cb')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Tutorialshortxl')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
